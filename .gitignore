@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local charts and conversion output (song audio is usually copyrighted)
+song/
+out/
+*.osz
+*.tja
+*.ogg
+*.mp3
+*.wav
