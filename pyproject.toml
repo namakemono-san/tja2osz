@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "tja2osz"
 dynamic = ["version"]
-description = "Convert TJA (Taiko Jiro) charts to osu!taiko beatmaps (.osz) with exact timing"
+description = "Convert TJA (Taiko Jiro) charts to osu!taiko beatmaps (.osz) and back, with exact timing"
 readme = "README.md"
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
@@ -20,6 +20,7 @@ classifiers = [
 
 [project.scripts]
 tja2osz = "tja2osz.cli:main"
+osz2tja = "tja2osz.osz2tja:main"
 
 [tool.setuptools]
 packages = ["tja2osz"]
